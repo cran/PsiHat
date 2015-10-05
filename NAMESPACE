@@ -1,0 +1,61 @@
+export(
+"BFDR","CombinedNames","MakeNames","Mfrow","PHATs.pvalue","PHATs.stat",
+"PValue","PValueFUN","Pbinom","RepNames","SFDR","Seq","Slot",
+"Var","are","are_null","are_prob","are_unk","as_colmatrix","as_rowmatrix",
+"assert.are","assert.is","assumedNull","b.notrobust","b.robust",
+"binom_BFDR","binom_limit","binom_prob","binom_rBFDR",
+"binom_rprob","blank.plot","blank_CDF","coercenExpressionSet","compatible",
+"confidence_CDF","default","est2list","estimated.BFDR","estimated.LFDR",
+"expected.lfdr","get_other.from.testfun","get_pvalues",
+"get_stats","grep_or","grepl_or","hsm","indSortAsY","isInteger","is_any",
+"is_err","is_error","is_nd1class","is_nd2class","is_unique",
+"is_unk","is_vide","lfdr","lfdr.assumedNull","lfdr.bbe","lfdr.bbe1",
+"lfdr.elfdr","lfdr.empiricalNull","lfdr.hbe","lfdr.hbea","lfdr.hbee",
+"list2est","list2matrix","loccov","loccov2","locfdr","locfdr.rname",
+"locmle","log_lfdr_se","make_labels","matrix2list","monotonic.pvalue",
+"nCDF","nalt","ncbind","ncvalue","nempiricalNull","new_CDF",
+"new_alt","new_bias.corrected.pvalue","new_cvalue","new_empiricalNull",
+"new_est.lfdr.pvalue","new_est.lfdr.stat","new_nExpressionSet",
+"new_nxprnSet","new_nXprnSet","new_ttest","nprnSet2matrix",
+"nqvalue","nrbind","nsize","nttest","nunique","nx11","p0est",
+"prep.2matrices","printGeneric","printInvalid","print_stats","probability_CDF",
+"pval2stat","removeEQ.from.matrix","removeNA.from.matrix",
+"removeRC.from.matrix","rvalue","s3_recursive",
+"sameAsX_names","sameAsY","sameLengths","sameXY_names","se.mean","silence",
+"sorted","spline.des","stat2pval","stats","string2char","t_test_CDF",
+"undefAsNA","vect2string","wilkinson.test","is_positive",
+"CorrectLimits","is_prob","is_paired","s3","Rank","sameNames","Mean",
+"Median","Sd","nNumeric","nscalar","nScalar","nMatrix","nexprs",
+"nfeatureNames","npData","nfData","nannotation","nexprs<-","nxprnSubset",
+"new_nxprnSetPair","removeMissing","Rep","sample_size",
+"Combine"
+)
+exportMethods(
+"Combine","CorrectLimits","Mean","Median","Rank","Rep","Sd",
+	"as.numeric","coerce","coerce<-","dim","dimnames",
+	"exp","is_paired","is_positive","is_prob","length","logb",
+	"nMatrix","nNumeric","nScalar","names","names<-","nannotation",
+	"new_nxprnSetPair","nexprs","nexprs<-","nfData","nfeatureNames",
+	"npData","nscalar","nxprnSubset","print","removeMissing",
+	"s3","sameNames","sample_size","[","[<-"
+)
+exportClasses(
+"CDF","Matrix","Numeric","Scalar","Vector","alt","bias.corrected.pvalue",
+	"cvalue","empiricalNull","est.lfdr.pvalue","est.lfdr.stat",
+	"est.lfdr.x","nExpressionSet","nXprnSet","nd1class","nd2class",
+	"nxprnSetObject","nxprnSetObjectPair","nxprnSetObjects","nxprnSetPair",
+	"nxprnSet","scalar","ttest"
+)
+import(
+"methods","qvalue","splines"
+)
+
+importFrom("graphics", "abline", "hist", "lines", "matplot", "par",
+             "plot", "points", "text", "title")
+importFrom("stats", "approx", "approxfun", "as.formula", "binom.test",
+             "coef", "dbinom", "dnorm", "ecdf", "glm", "lm", "median",
+             "na.fail", "optimize", "pnorm", "poisson", "poly",
+             "ppoints", "predict", "pt", "qnorm", "qt", "quantile",
+             "rnorm", "runif", "t.test", "var", "wilcox.test")
+importFrom("utils", "str")
+
